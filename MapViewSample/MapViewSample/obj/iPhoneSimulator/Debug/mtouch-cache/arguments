@@ -1,0 +1,36 @@
+# Version: 9.6.2.4 (cycle6-xi: d8bedd0)
+# [first argument, ignore] # /Users/aditya/Projects/MapViewSample/MapViewSample/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/bin/mtouch \
+	--cache \
+	/Users/aditya/Projects/MapViewSample/MapViewSample/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/Users/aditya/Projects/MapViewSample/MapViewSample/bin/iPhoneSimulator/Debug/MapViewSample.app \
+	--executable \
+	MapViewSample \
+	--fastdev \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.3 \
+	--targetver \
+	8.0 \
+	--new-refcount \
+	--abi=i386 \
+	--symbollist \
+	/Users/aditya/Projects/MapViewSample/MapViewSample/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/aditya/Projects/MapViewSample/MapViewSample/bin/iPhoneSimulator/Debug//MapViewSample.exe \
